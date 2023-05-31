@@ -53,6 +53,10 @@
   float: inline-end;
   max-width: 400px;
   color: #ffffff;
+  font-weight: bolder;
+}
+.navigationScrolled li:hover {
+  color: #000000 !important;
 }
 
 @media only screen and (max-width: 700px) {

@@ -90,8 +90,9 @@
 .tvScreen {
   position: absolute;
   transform-style: preserve-3d;
-  transform: rotateY(-10deg);
+  transform: rotateY(8deg);
   margin-top: 10%;
-  width: 80%;
+  margin-left: 14%;
+  width: 85%;
   height: auto;
 }

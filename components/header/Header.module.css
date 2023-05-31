@@ -20,11 +20,11 @@
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: bolder;
-  letter-spacing: -2px;
   text-transform: uppercase;
-  transform: rotate(-10deg);
-  padding-top: 5px;
-  font-size: clamp(0.8rem, 3.2vw - 0.6rem, 1.8rem);
+  transform: rotate(-10deg) scaleY(1.6);
+  padding-top: 2%;
+  font-size: clamp(0.6rem, 6.4vw - 2.2rem, 1.8rem);
+  line-height: 1;
 }
 .header main > div > h2 {
   font-size: clamp(3rem, 9.6vw - 1.2rem, 6rem);
@@ -42,7 +42,7 @@
 .header main > div:last-of-type {
   display: grid;
   justify-items: right;
-  margin-bottom: 25px;
+  margin-bottom: 50px;
   margin-right: 20px;
 }
 .header main > div:last-of-type > h4:first-of-type {
@@ -83,8 +83,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: clamp(8rem, 17.5vw + 4.7rem, 20rem);
-  height: clamp(8rem, 17.5vw + 4.7rem, 20rem);
+  width: clamp(7rem, 58.7vw - 18.7rem, 18rem);
+  height: clamp(7rem, 58.7vw - 18.7rem, 18rem);
   background-color: rgb(255, 247, 0);
   position: absolute;
   top: 22%;

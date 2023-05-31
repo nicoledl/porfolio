@@ -2,23 +2,28 @@
 import style from "./About.module.css";
 import { Element } from "react-scroll";
 import { motion } from "framer-motion";
+import { useInView } from "react-intersection-observer";
 
 export default function AboutMe() {
+  const { ref, inView } = useInView({ threshold: 0.2 });
+
   return (
     <Element name="about">
-      <div className={style.aboutContainer}>
-        <motion.h1
-          initial={{ opacity: 0, scale: 0.5 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{
-            duration: 0.8,
-            delay: 0.5,
-            ease: [0, 0.71, 0.2, 1.01],
-          }}
-          className="pt-[80px] text-center"
-        >
-          ABOUT ME
-        </motion.h1>
+      <div ref={ref} className={style.aboutContainer}>
+        {inView && (
+          <motion.h1
+            initial={{ opacity: 0, scale: 0.5 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{
+              duration: 0.8,
+              delay: 0.2,
+              ease: [0, 0.71, 0.2, 1.01],
+            }}
+            className="pt-[80px] text-center"
+          >
+            ABOUT ME
+          </motion.h1>
+        )}
         <motion.div className={style.card}>
           <div>
             <div></div>

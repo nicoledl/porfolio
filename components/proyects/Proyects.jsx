@@ -5,12 +5,9 @@ import style from "./Proyects.module.css";
 import { oleoScript } from "../../app/fonts";
 import { Element } from "react-scroll/modules";
 import { motion } from "framer-motion";
-import { useInView } from "react-intersection-observer";
 
 export default function Proyects() {
   const [currentProyect, setCurrentProyect] = useState(false);
-  const { ref, inView } = useInView({ threshold: 0 });
-
   function handleSelected(elem) {
     setCurrentProyect(elem);
   }
@@ -20,7 +17,36 @@ export default function Proyects() {
       <div className={style.proyects}>
         <motion.div className={oleoScript.className}>Proyects</motion.div>
         <main className="container mx-auto align-center grid grid-rows-2 grid-cols-1 lg:grid-rows-1 lg:grid-cols-2 mt-8 h-max">
-          <div className="grid content-center px-[30px]">
+          <div className="relative container mx-auto flex h-[100px] sm:h-[600px] ">
+            <div
+              className="absolute w-[400px] sm:w-[600px] right-0 left-0 mx-auto max-w-[87%] m-auto h-auto"
+              style={{
+                perspective: "600px",
+                left: "50%",
+                transform: "translateX(-50%)",
+              }}
+            >
+              <img
+                src="images/tv.png"
+                alt="tv"
+                className="absolute z-40 scale-x-[-1]"
+              />
+              {currentProyect ? (
+                <img
+                  src={currentProyect.urlImg1}
+                  alt={currentProyect.name}
+                  className={style.tvScreen}
+                />
+              ) : (
+                <img
+                  src="images/vcr-glitching.gif"
+                  alt="GIF animado"
+                  className={style.tvScreen}
+                />
+              )}
+            </div>
+          </div>
+          <div className="grid content-center px-[40px]">
             {proyects.map((elem, i) => (
               <div
                 key={i}
@@ -98,35 +124,6 @@ export default function Proyects() {
                 </motion.div>
               )}
             </section>
-          </div>
-          <div className="relative container mx-auto flex h-[100px] sm:h-[600px]">
-            <div
-              className="absolute w-[400px] sm:w-[600px] sm-lg:right-0 mt-8 me-8 mx-auto max-w-[87%]"
-              style={{
-                perspective: "600px",
-                left: "50%",
-                transform: "translateX(-50%)",
-              }}
-            >
-              <img
-                src="images/tv.png"
-                alt="tv"
-                className="absolute right-0 z-40"
-              />
-              {currentProyect ? (
-                <img
-                  src={currentProyect.urlImg1}
-                  alt={currentProyect.name}
-                  className={style.tvScreen}
-                />
-              ) : (
-                <img
-                  src="images/vcr-glitching.gif"
-                  alt="GIF animado"
-                  className={style.tvScreen}
-                />
-              )}
-            </div>
           </div>
         </main>
       </div>
