@@ -1,0 +1,100 @@
+.proyects {
+  background-color: rgb(243, 230, 255);
+  height: max-content;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.proyects > div:first-of-type {
+  font-weight: 700;
+  font-size: clamp(5.5rem, 24vw - 5rem, 10rem);
+  text-shadow: -15px 5px 20px #ced0d3;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #f9f1cc;
+  text-shadow: 5px 5px 0px #ffb650, 10px 10px 0px #ffd662, 15px 15px 0px #ff80bf,
+    20px 20px 0px #ef5097, 25px 25px 0px #6868ac, 30px 30px 0px #90b1e0;
+}
+.proyects section {
+  box-shadow: 5px 5px 0px #ffb650, 10px 10px 0px #ffd662, 15px 15px 0px #ff80bf,
+    20px 20px 0px #ef5097, 25px 25px 0px #6868ac, 30px 30px 0px #90b1e0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.proyects button,
+.proyects a {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  letter-spacing: 2px;
+  font-size: 1.2rem;
+}
+.proyects a {
+  margin: 10px;
+}
+
+.vhs {
+  background-color: #171920;
+  position: relative;
+  /* width: 700px; */
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  border-radius: 5px;
+  box-shadow: 0px -16px 23px 1px rgba(0, 0, 0, 0.43) inset;
+  -webkit-box-shadow: 0px -16px 23px 1px rgba(0, 0, 0, 0.43) inset;
+  -moz-box-shadow: 0px -16px 23px 1px rgba(0, 0, 0, 0.43) inset;
+  cursor: pointer;
+  transition: scale 0.1s ease-in-out;
+}
+
+.vhs:hover {
+  scale: 1.1;
+  transition: scale 0.1s ease-in-out;
+}
+.vhs:active {
+  scale: 0.99;
+  transition: scale 0.1s ease-in-out;
+}
+
+.vhs:hover div:first-of-type {
+  color: rgb(83, 3, 255);
+  transition: color 0.1s ease-in-out;
+}
+
+.vhs div:first-of-type {
+  position: absolute;
+  background-color: #f8f8f8;
+  width: 70%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Just Another Hand", cursive;
+  font-size: clamp(1.5rem, 5.3vw - 0.8rem, 2.5rem);
+  line-height: 18px;
+  letter-spacing: 1px;
+  color: rgb(13, 13, 164);
+  border-radius: 10px;
+  padding: 5px;
+}
+.vhs div:last-of-type {
+  width: 100%;
+  border: 1px solid #000;
+}
+.vhs:last-of-type {
+  box-shadow: 0px 19px 37px 5px rgba(0, 0, 0, 1);
+  -webkit-box-shadow: 0px 19px 37px 5px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 0px 19px 37px 5px rgba(0, 0, 0, 1);
+}
+
+.tvScreen {
+  position: absolute;
+  transform-style: preserve-3d;
+  transform: rotateY(-10deg);
+  margin-top: 10%;
+  width: 80%;
+  height: auto;
+}
+
+@media only screen and (max-width: 610px) {
+}

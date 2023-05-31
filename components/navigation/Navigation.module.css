@@ -1,0 +1,63 @@
+.navigation {
+  display: flex;
+  z-index: 100;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #00c3ff;
+  justify-content: space-between;
+  padding: 10px 0px;
+  transition: background 0.5s ease-in-out;
+}
+.navigationScrolled {
+  display: flex;
+  z-index: 100;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  backdrop-filter: blur(4px) saturate(122%);
+  -webkit-backdrop-filter: blur(4px) saturate(122%);
+  background-color: rgba(255, 255, 255, 0.75);
+  border: 1px solid rgba(209, 213, 219, 0.18);
+  justify-content: space-between;
+  padding: 10px 0px;
+  transition: background 0.5s ease-in-out;
+}
+
+.navigation span {
+  font-size: medium;
+  text-transform: uppercase;
+  padding: 0px 20px;
+  color: rgb(255, 255, 255);
+}
+
+.navigationScrolled span {
+  font-size: medium;
+  text-transform: uppercase;
+  padding: 0px 20px;
+  color: #57575781;
+}
+
+.navigation ul,
+.navigationScrolled ul {
+  list-style: none;
+  float: inline-end;
+  max-width: 400px;
+}
+
+.navigation li:hover,
+.navigationScrolled li:hover {
+  list-style: none;
+  float: inline-end;
+  max-width: 400px;
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 700px) {
+  .navigation,
+  .navigationScrolled {
+    display: initial;
+  }
+}

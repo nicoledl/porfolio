@@ -1,0 +1,255 @@
+.skills {
+  height: max-content;
+  background-color: #ffffff;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 800 800'%3E%3Cdefs%3E%3CradialGradient id='a' cx='400' cy='400' r='98.7%25' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23ffffff'/%3E%3Cstop offset='1' stop-color='%23FF20C7'/%3E%3C/radialGradient%3E%3CradialGradient id='b' cx='400' cy='400' r='63.8%25' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23ffffff'/%3E%3Cstop offset='1' stop-color='%23FF94EF'/%3E%3C/radialGradient%3E%3C/defs%3E%3Crect fill='url(%23a)' width='800' height='800'/%3E%3Cg fill-opacity='.8'%3E%3Cpath fill='url(%23b)' d='M998.7 439.2c1.7-26.5 1.7-52.7 0.1-78.5L401 399.9c0 0 0-0.1 0-0.1l587.6-116.9c-5.1-25.9-11.9-51.2-20.3-75.8L400.9 399.7c0 0 0-0.1 0-0.1l537.3-265c-11.6-23.5-24.8-46.2-39.3-67.9L400.8 399.5c0 0 0-0.1-0.1-0.1l450.4-395c-17.3-19.7-35.8-38.2-55.5-55.5l-395 450.4c0 0-0.1 0-0.1-0.1L733.4-99c-21.7-14.5-44.4-27.6-68-39.3l-265 537.4c0 0-0.1 0-0.1 0l192.6-567.4c-24.6-8.3-49.9-15.1-75.8-20.2L400.2 399c0 0-0.1 0-0.1 0l39.2-597.7c-26.5-1.7-52.7-1.7-78.5-0.1L399.9 399c0 0-0.1 0-0.1 0L282.9-188.6c-25.9 5.1-51.2 11.9-75.8 20.3l192.6 567.4c0 0-0.1 0-0.1 0l-265-537.3c-23.5 11.6-46.2 24.8-67.9 39.3l332.8 498.1c0 0-0.1 0-0.1 0.1L4.4-51.1C-15.3-33.9-33.8-15.3-51.1 4.4l450.4 395c0 0 0 0.1-0.1 0.1L-99 66.6c-14.5 21.7-27.6 44.4-39.3 68l537.4 265c0 0 0 0.1 0 0.1l-567.4-192.6c-8.3 24.6-15.1 49.9-20.2 75.8L399 399.8c0 0 0 0.1 0 0.1l-597.7-39.2c-1.7 26.5-1.7 52.7-0.1 78.5L399 400.1c0 0 0 0.1 0 0.1l-587.6 116.9c5.1 25.9 11.9 51.2 20.3 75.8l567.4-192.6c0 0 0 0.1 0 0.1l-537.3 265c11.6 23.5 24.8 46.2 39.3 67.9l498.1-332.8c0 0 0 0.1 0.1 0.1l-450.4 395c17.3 19.7 35.8 38.2 55.5 55.5l395-450.4c0 0 0.1 0 0.1 0.1L66.6 899c21.7 14.5 44.4 27.6 68 39.3l265-537.4c0 0 0.1 0 0.1 0L207.1 968.3c24.6 8.3 49.9 15.1 75.8 20.2L399.8 401c0 0 0.1 0 0.1 0l-39.2 597.7c26.5 1.7 52.7 1.7 78.5 0.1L400.1 401c0 0 0.1 0 0.1 0l116.9 587.6c25.9-5.1 51.2-11.9 75.8-20.3L400.3 400.9c0 0 0.1 0 0.1 0l265 537.3c23.5-11.6 46.2-24.8 67.9-39.3L400.5 400.8c0 0 0.1 0 0.1-0.1l395 450.4c19.7-17.3 38.2-35.8 55.5-55.5l-450.4-395c0 0 0-0.1 0.1-0.1L899 733.4c14.5-21.7 27.6-44.4 39.3-68l-537.4-265c0 0 0-0.1 0-0.1l567.4 192.6c8.3-24.6 15.1-49.9 20.2-75.8L401 400.2c0 0 0-0.1 0-0.1L998.7 439.2z'/%3E%3C/g%3E%3C/svg%3E");
+  background-size: cover;
+  background-position: center top;
+  padding-bottom: 100px;
+}
+
+.skills h1 {
+  -webkit-text-stroke-width: 4.5px;
+  -webkit-text-stroke-color: #ffbeef;
+  -webkit-text-fill-color: #ff20c7;
+  font-family: Impact, Charcoal, sans-serif;
+  text-shadow: 0px 0px 0px #ffbeef;
+  font-weight: bolder;
+  font-size: clamp(4rem, 26.7vw - 7.7rem, 9rem);
+  font-style: italic;
+}
+
+.cd {
+  background: rgb(0, 168, 255);
+  background: linear-gradient(
+    270deg,
+    rgba(0, 168, 255, 1) 0%,
+    rgba(0, 255, 124, 1) 100%
+  );
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  border-radius: 50%;
+}
+.cd div {
+  background-color: rgb(195, 209, 209);
+  width: 10px;
+  height: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.cdCase {
+  z-index: 10;
+  height: 206px;
+  width: 230px;
+  margin: 20px 0px 15px 35px;
+  display: inline;
+  position: relative;
+  border-radius: 3px;
+  background: #c7e2ffa0;
+  box-shadow: 0px 2px 10px 1px rgba(0, 0, 0, 0.6),
+    inset 0px 0px 20px 2px rgba(0, 0, 0, 0.4),
+    inset 0px 0px 5px 1px rgba(255, 255, 255, 0.6),
+    inset 0px 0px 0px 1px rgba(255, 255, 255, 0.2);
+}
+
+.cdCase div:first-of-type {
+  height: 200px;
+  width: 200px;
+  border-radius: 3px;
+  background: rgba(0, 0, 0, 0);
+  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.5),
+    inset 0px 0px 16px 2px rgba(0, 0, 0, 0.1),
+    inset 0px 0px 0px 1px rgba(255, 255, 255, 0.3);
+  position: relative;
+  top: 3px;
+  left: 25px;
+  z-index: -2;
+  background: linear-gradient(
+    rgba(255, 255, 255, 0.15),
+    rgba(255, 255, 255, 0)
+  );
+  background-size: cover;
+  background-position: center;
+}
+
+.cdCase div:first-of-type > div {
+  height: 10px;
+  width: 20px;
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: inset 0px 0px 6px 1px rgba(0, 0, 0, 0.22),
+    inset 0px 0px 1px 1px rgba(255, 255, 255, 0.17);
+}
+.cdCase div:first-of-type > div:nth-child(1) {
+  position: relative;
+  top: 0;
+  left: 20px;
+  border-radius: 0 0 5px 5px;
+}
+.cdCase div:first-of-type > div:nth-child(2) {
+  position: relative;
+  top: -10px;
+  left: 160px;
+  border-radius: 0 0 5px 5px;
+}
+.cdCase div:first-of-type > div:nth-child(3) {
+  position: relative;
+  top: 169px;
+  left: 20px;
+  border-radius: 5px 5px 0 0;
+}
+.cdCase div:first-of-type > div:nth-child(4) {
+  position: relative;
+  top: 159px;
+  left: 160px;
+  border-radius: 5px 5px 0 0;
+}
+
+.cdCase div:last-of-type {
+  height: 120px;
+  width: 15px;
+  background: -webkit-linear-gradient(
+    rgba(255, 255, 255, 0.2) 0%,
+    rgba(255, 255, 255, 0.07) 100%
+  );
+  box-shadow: 3px 0px 5px 0px rgba(0, 0, 0, 0.23),
+    inset 0px 0px 7px 0px rgba(0, 0, 0, 0.22),
+    inset 0px 0px 0px 1px rgba(255, 255, 255, 0.22);
+  position: relative;
+  top: -160px;
+  left: 0;
+  border-radius: 0 50% 50% 0;
+  z-index: -1;
+}
+
+.cdCase span {
+  width: 80%;
+  height: 90%;
+  top: 2px;
+  left: 30px;
+  border-radius: 50%;
+  background: rgb(233, 233, 233);
+  background: -moz-linear-gradient(
+    342deg,
+    rgba(233, 233, 233, 1) 1%,
+    rgba(196, 195, 196, 1) 15%,
+    rgba(227, 225, 227, 1) 19%,
+    rgba(203, 202, 203, 1) 22%,
+    rgba(191, 191, 191, 1) 31%,
+    rgba(215, 120, 211, 1) 36%,
+    rgba(0, 211, 255, 1) 41%,
+    rgba(193, 185, 193, 1) 46%,
+    rgba(193, 185, 193, 1) 51%,
+    rgba(156, 230, 210, 1) 55%,
+    rgba(193, 185, 193, 1) 65%,
+    rgba(220, 217, 220, 1) 72%,
+    rgba(233, 233, 233, 1) 75%,
+    rgba(197, 190, 197, 1) 78%
+  );
+  background: -webkit-linear-gradient(
+    342deg,
+    rgba(233, 233, 233, 1) 1%,
+    rgba(196, 195, 196, 1) 15%,
+    rgba(227, 225, 227, 1) 19%,
+    rgba(203, 202, 203, 1) 22%,
+    rgba(191, 191, 191, 1) 31%,
+    rgba(215, 120, 211, 1) 36%,
+    rgba(0, 211, 255, 1) 41%,
+    rgba(193, 185, 193, 1) 46%,
+    rgba(193, 185, 193, 1) 51%,
+    rgba(156, 230, 210, 1) 55%,
+    rgba(193, 185, 193, 1) 65%,
+    rgba(220, 217, 220, 1) 72%,
+    rgba(233, 233, 233, 1) 75%,
+    rgba(197, 190, 197, 1) 78%
+  );
+  background: linear-gradient(
+    342deg,
+    rgba(233, 233, 233, 1) 1%,
+    rgba(196, 195, 196, 1) 15%,
+    rgba(227, 225, 227, 1) 19%,
+    rgba(203, 202, 203, 1) 22%,
+    rgba(191, 191, 191, 1) 31%,
+    rgba(215, 120, 211, 1) 36%,
+    rgba(0, 211, 255, 1) 41%,
+    rgba(193, 185, 193, 1) 46%,
+    rgba(193, 185, 193, 1) 51%,
+    rgba(156, 230, 210, 1) 55%,
+    rgba(193, 185, 193, 1) 65%,
+    rgba(220, 217, 220, 1) 72%,
+    rgba(233, 233, 233, 1) 75%,
+    rgba(197, 190, 197, 1) 78%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e9e9e9",endColorstr="#c5bec5",GradientType=1);
+  animation: spin 2s linear infinite;
+  transition: translate 0.5s;
+  z-index: -100;
+}
+
+.cdCase:hover span {
+  translate: 0px -48px;
+  transition: translate 0.5s;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .skills {
+    height: max-content;
+    padding-bottom: 100px;
+  }
+  .cdCase {
+    height: 106px;
+    width: 130px;
+  }
+  .cdCase div:first-of-type {
+    height: 100px;
+    width: 100px;
+  }
+  .cdCase div:last-of-type {
+    height: 50px;
+    top: -71px;
+  }
+  .cdCase div:first-of-type > div:nth-child(1) {
+    position: relative;
+    top: 0;
+    left: 10px;
+    border-radius: 0 0 5px 5px;
+  }
+  .cdCase div:first-of-type > div:nth-child(2) {
+    position: relative;
+    top: -10px;
+    left: 70px;
+    border-radius: 0 0 5px 5px;
+  }
+  .cdCase div:first-of-type > div:nth-child(3) {
+    position: relative;
+    top: 70px;
+    left: 10px;
+    border-radius: 5px 5px 0 0;
+  }
+  .cdCase div:first-of-type > div:nth-child(4) {
+    position: relative;
+    top: 60px;
+    left: 70px;
+    border-radius: 5px 5px 0 0;
+  }
+  .cdCase span {
+    width: 65%;
+    height: 80%;
+    top: 18px;
+  }
+}

@@ -1,0 +1,52 @@
+[
+  {
+    "tech": "JavaScript",
+    "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
+    "url": "https://developer.mozilla.org/es/docs/Web/JavaScript"
+  },
+  {
+    "tech": "React",
+    "imgUrl": "https://collabnix.com/wp-content/uploads/2022/04/ReactJS.jpeg",
+    "url": "https://react.dev/"
+  },
+  {
+    "tech": "HTML",
+    "imgUrl": "https://usefulangle.com/img/thumb/html.png",
+    "url": "https://developer.mozilla.org/es/docs/Web/HTML"
+  },
+  {
+    "tech": "CSS",
+    "imgUrl": "https://hyperts.net/wp-content/uploads/2021/06/csst.jpg",
+    "url": "https://developer.mozilla.org/es/docs/Web/CSS"
+  },
+  {
+    "tech": "Node.js",
+    "imgUrl": "https://usefulangle.com/img/thumb/nodejs.png",
+    "url": "https://nodejs.org/en"
+  },
+  {
+    "tech": "Express.js",
+    "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUbjpHNiAc2MvMN1SAm7Ns5N_M-h2szTYEPecG_iKD0QXp5Ion52kG0FBsF-6Q6U5t3fY&usqp=CAU",
+    "url": "https://expressjs.com/es/"
+  },
+  {
+    "tech": "mysql",
+    "imgUrl": "https://blog.smartnethostingcolombia.com/wp-content/uploads/2021/04/MySQL-SNHC.png",
+    "url": "https://dev.mysql.com/doc/"
+  },
+  {
+    "tech": "github",
+    "imgUrl": "https://www.html.it/app/uploads/2020/09/github-300x200.jpg",
+    "url": "https://github.com/"
+  },
+  {
+    "tech": "Adobe Illustrator",
+    "imgUrl": "https://blog.vtutor.com/wp-content/uploads/2020/09/%C2%BFQu%C3%A9-es-Adobe-Illustrator-y-para-que-sirve.png",
+    "url": "https://www.adobe.com/ar/products/illustrator.html"
+  },
+  {
+    "tech": "Adobe Photoshop",
+    "imgUrl": "https://www.adobe.com/content/dam/cc/us/en/products/photoshop/photoshop-1200x630.jpg",
+    "url": "https://www.adobe.com/ar/products/photoshop.html"
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "name": "La Flia Cine",
+    "role": "Role: Front-end",
+    "technologies": "Technologies: Javascript, React, MaterialUI, themoviedb API, CSS, libraries",
+    "url": "https://la-flia-cine.vercel.app/",
+    "github": "https://github.com/nicoledl/LaFliaCine",
+    "urlImg1": "images/tmdb.png",
+    "id": "0"
+  },
+  {
+    "name": "Casita Huellitas, refugio de adopción",
+    "role": "Role: Front-end",
+    "technologies": "Technologies: Javascript, React, Boostrap, themoviedb API, CSS, libraries",
+    "url": "https://refugio-casita-huellitas.web.app/",
+    "github": "https://github.com/nicoledl/casitaHuellitas",
+    "urlImg1": "images/refugio.png",
+    "id": "1"
+  },
+  {
+    "name": "Tech Hunters",
+    "role": "Role: Full Stack",
+    "technologies": "Technologies: Javascript, React, Boostrap, CSS, libraries, Node.js, Express, MySql",
+    "url": "",
+    "github": "",
+    "urlImg1": "images/techunters.png",
+    "id": "2"
+  },
+  {
+    "name": "Mi Community",
+    "role": "Role: Full Stack",
+    "technologies": "Technologies: Javascript, React, Boostrap, CSS, libraries, Node.js, Express, MySql",
+    "url": "",
+    "github": "",
+    "urlImg1": "images/micommunity.png",
+    "id": "3"
+  },
+  {
+    "name": "Porfolio",
+    "role": "Role: Front-end",
+    "technologies": "Technologies: Javascript, React, Tailwind, CSS, libraries",
+    "url": "",
+    "github": "",
+    "urlImg1": "images/porfolio.png",
+    "id": "3"
+  }
+]
