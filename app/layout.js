@@ -12,6 +12,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <title>Nicole Losana - Porfolio</title>
+        <link rel="nl icon" href="images/NL.ico" />
       </head>
       <body>
         <Navigation />
