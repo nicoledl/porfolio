@@ -9,7 +9,7 @@ import { useInView } from "react-intersection-observer";
 
 export default function Proyects() {
   const [currentProyect, setCurrentProyect] = useState(false);
-  const { ref, inView } = useInView({ threshold: 0.2 });
+  const { ref, inView } = useInView({ threshold: 0 });
 
   function handleSelected(elem) {
     setCurrentProyect(elem);
@@ -17,21 +17,8 @@ export default function Proyects() {
 
   return (
     <Element name="proyects">
-      <div ref={ref} className={style.proyects}>
-        {inView && (
-          <motion.div
-            initial={{
-              scale: 0,
-            }}
-            animate={{
-              scale: 1,
-            }}
-            transition={{ duration: 0.5, delay: 0.3 }}
-            className={oleoScript.className}
-          >
-            Proyects
-          </motion.div>
-        )}
+      <div className={style.proyects}>
+        <motion.div className={oleoScript.className}>Proyects</motion.div>
         <main className="container mx-auto align-center grid grid-rows-2 grid-cols-1 lg:grid-rows-1 lg:grid-cols-2 mt-8 h-max">
           <div className="grid content-center px-[30px]">
             {proyects.map((elem, i) => (
