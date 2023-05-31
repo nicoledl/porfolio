@@ -30,7 +30,7 @@ export default function Skills() {
   return (
     <Element name="skills">
       <div ref={ref} className={style.skills}>
-        <motion.h1 className="pt-[80px] text-center">Skills</motion.h1>
+        <h1 className="pt-[80px] text-center">Skills</h1>
         <motion.main
           ref={ref}
           className="flex flex-wrap container mx-auto justify-center items-center"

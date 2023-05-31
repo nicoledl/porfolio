@@ -8,11 +8,10 @@
 }
 
 .skills h1 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   -webkit-text-stroke-width: 4px;
   -webkit-text-stroke-color: #ffbeef;
   -webkit-text-fill-color: #ff20c7;
-  font-family: Impact, Charcoal, sans-serif;
-  text-shadow: 0px 0px 0px #ffbeef;
   font-weight: bolder;
   font-size: clamp(4rem, 26.7vw - 7.7rem, 9rem);
   font-style: italic;
@@ -267,6 +266,6 @@
     top: 18px;
   }
   .skills h1 {
-    height: 22vh;
+    height: 30vh;
   }
 }

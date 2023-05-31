@@ -6,7 +6,7 @@
     "url": "https://la-flia-cine.vercel.app/",
     "github": "https://github.com/nicoledl/LaFliaCine",
     "urlImg1": "images/tmdb.png",
-    "id": "0"
+    "id": 0
   },
   {
     "name": "Casita Huellitas, refugio de adopción",
@@ -15,7 +15,7 @@
     "url": "https://refugio-casita-huellitas.web.app/",
     "github": "https://github.com/nicoledl/casitaHuellitas",
     "urlImg1": "images/refugio.png",
-    "id": "1"
+    "id": 1
   },
   {
     "name": "Tech Hunters",
@@ -24,7 +24,7 @@
     "url": "",
     "github": "",
     "urlImg1": "images/techunters.png",
-    "id": "2"
+    "id": 2
   },
   {
     "name": "Mi Community",
@@ -33,7 +33,7 @@
     "url": "",
     "github": "",
     "urlImg1": "images/micommunity.png",
-    "id": "3"
+    "id": 3
   },
   {
     "name": "Porfolio",
@@ -42,6 +42,6 @@
     "url": "",
     "github": "",
     "urlImg1": "images/porfolio.png",
-    "id": "3"
+    "id": 4
   }
 ]

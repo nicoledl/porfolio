@@ -161,8 +161,11 @@
 }
 
 @media only screen and (max-width: 480px) {
+  .aboutContainer {
+    height: 80vh;
+  }
   .card {
-    width: 250px;
+    width: 290px;
     height: 400px;
   }
   .card h2 {
