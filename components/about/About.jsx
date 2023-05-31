@@ -35,14 +35,14 @@ export default function AboutMe() {
             </h2>
             <p>
               I'll start with what I consider one of my strength, that is be
-              emotional and empathetic. <br />I like argue about many subjects,
+              emotional and empathetic. <br />I like debate about many subjects,
               and learning about differents points of view. People actions or
               thoughts intrigued me.
               <br /> I'm a person that like learning with practice and
               searching. Another strength that i have is the tolerance of facing
               troubles, i dont give up until i find the solution.
               <br className="mb-3" />
-              <b className="text-pink-500 uppercase">🤭Nonsense ps</b>: i love
+              <b className="text-pink-500 uppercase">🤭Extra info.</b>: i love
               colors, romantic, drama and horror movies/series; music, draw,
               animals, food, nature and the city.
             </p>
