@@ -51,7 +51,7 @@ export default function Header() {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: 0.5, duration: 1 }}
-              className="absolute w-[60vh] bottom-0 mx-auto left-0 right-0 z-[-100]"
+              className="absolute bottom-0 mx-auto left-0 right-0 z-[-100]"
               src="/images/nicoledl.png"
               alt="Nicole Losana"
             />

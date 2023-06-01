@@ -2,19 +2,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Just+Another+Hand&family=Lilita+One&display=swap");
 
 .aboutContainer {
-  height: 100vh;
+  height: max-content;
   position: relative;
   margin: 0;
   padding: 0;
   width: 100%;
   background-image: url("/images/fluffy.jpg");
   background-size: cover;
+  height: 800px;
+  overflow: hidden
 }
 
 .aboutContainer h1 {
   font-family: "Lilita One", cursive;
   color: #fff;
   font-size: clamp(4rem, 16vw - 3rem, 7rem);
+  text-align: center;
 }
 
 .card h2 {

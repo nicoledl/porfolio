@@ -19,7 +19,6 @@ export default function AboutMe() {
               delay: 0.2,
               ease: [0, 0.71, 0.2, 1.01],
             }}
-            className="pt-[80px] text-center pb-[50px]"
           >
             ABOUT ME
           </motion.h1>

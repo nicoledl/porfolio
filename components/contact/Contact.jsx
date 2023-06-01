@@ -4,19 +4,16 @@ import style from "./Contact.module.css";
 import { Link } from "react-scroll";
 
 export default function Contact() {
-  console.log(
-    "gif by Luiza Lima - https://dribbble.com/shots/15084808-back-to-2005-GIF"
-  );
-
   return (
     <Element name="contact">
       <div
-        className="h-[200px] sm:h-[300px]"
+        className="h-[150px] sm:h-[300px]"
         style={{
           backgroundImage: "url('images/contact.gif')",
-          backgroundSize: "contain",
+          backgroundSize: "50%",
           backgroundRepeat: "no-repeat",
           backgroundColor: "#FFABBE",
+          backgroundPosition: "bottom left",
         }}
       >
         <div className="pe-[10%] flex justify-end gap-[5%] items-center h-full relative">
