@@ -2,6 +2,7 @@
   height: 100vh;
   padding-top: 15vh;
   position: relative;
+  overflow: hidden;
 }
 
 .header h1 {
@@ -17,7 +18,7 @@
   line-height: 100px;
 }
 
-.header img{
+.header img {
   height: 80vh;
   width: max-content;
 }
@@ -322,5 +323,9 @@
   }
   .clipAnimation {
     top: 180px;
+  }
+  .header img {
+    height: auto;
+    width: max-content;
   }
 }

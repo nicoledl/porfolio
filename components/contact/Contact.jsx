@@ -7,10 +7,9 @@ export default function Contact() {
   return (
     <Element name="contact">
       <div
-        className="h-[150px] sm:h-[300px]"
+        className="h-[150px] sm:h-[300px] bg-contain overflow-auto"
         style={{
           backgroundImage: "url('images/contact.gif')",
-          backgroundSize: "50%",
           backgroundRepeat: "no-repeat",
           backgroundColor: "#FFABBE",
           backgroundPosition: "bottom left",
