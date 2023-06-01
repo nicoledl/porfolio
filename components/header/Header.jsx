@@ -40,7 +40,7 @@ export default function Header() {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.2 }}
           >
-            <div className="absolute grid pb-5 z-40 bottom-0 mb-8">
+            <div className="absolute grid pb-5 z-40 bottom-0 mb-8 lg:ms-[10vw]">
               <h3 className={yesevaOne.className}>Know me</h3>
               <h2>
                 Nicole D.
@@ -55,7 +55,7 @@ export default function Header() {
               src="/images/nicoledl.png"
               alt="Nicole Losana"
             />
-            <div className="absolute grid pb-5 z-40 bottom-0 right-0 text-right mb-8">
+            <div className="absolute grid pb-5 z-40 bottom-0 right-0 text-right mb-8 lg:me-[10vw]">
               <h4 className="mb-5">tech stack that I use</h4>
               <h6 className={concertOne.className}>JavaScript</h6>
               <h5 className={concertOne.className}>React</h5>

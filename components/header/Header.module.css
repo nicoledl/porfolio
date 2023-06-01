@@ -49,7 +49,7 @@
   display: grid;
   justify-items: right;
   margin-bottom: 50px;
-  margin-right: 20px;
+  /* margin-right: 20%; */
 }
 .header main > div:last-of-type > h4:first-of-type {
   background-color: #00c3ff;
