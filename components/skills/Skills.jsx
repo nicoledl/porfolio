@@ -4,6 +4,7 @@ import style from "./Skills.module.css";
 import tech from "./technologies.json";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
+import {russoOne} from "../../app/fonts"
 
 function cd(params, i) {
   return (
@@ -30,7 +31,19 @@ export default function Skills() {
   return (
     <Element name="skills">
       <div ref={ref} className={style.skills}>
-        <h1 className="pt-[80px] text-center">Skills</h1>
+        <motion.h1
+          animate={{
+            scale: [1, 1.2, 1],
+          }}
+          transition={{
+            duration: 0.5,
+            ease: "easeInOut",
+            repeat: Infinity,
+          }}
+          className={russoOne.className}
+        >
+          Skills
+        </motion.h1>
         <motion.main
           ref={ref}
           className="flex flex-wrap container mx-auto justify-center items-center"

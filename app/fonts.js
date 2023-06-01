@@ -4,7 +4,8 @@ import {
   Yeseva_One,
   Comic_Neue,
   Concert_One,
-  Oleo_Script
+  Oleo_Script,
+  Russo_One
 } from "next/font/google";
 
 export const abrilFatface = Abril_Fatface({
@@ -46,4 +47,11 @@ export const oleoScript = Oleo_Script({
   style: ["normal"],
   weight: "400",
   variable: "--font-oleoScript",
+});
+
+export const russoOne = Russo_One({
+  subsets: ["latin"],
+  style: ["normal"],
+  weight: "400",
+  variable: "--font-russoOne",
 });
