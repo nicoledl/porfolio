@@ -3,15 +3,15 @@ import "../styles/globals.css";
 
 export const metadata = {
   title: "Nicole D. Losana",
-  description: "My Porfolio Nicole Losana",
-  keywords: "porfolio,fullstack",
+  description: "My Portfolio Nicole Losana",
+  keywords: "portfolio,fullstack",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <title>Nicole Losana - Porfolio</title>
+        <title>Nicole Losana - Portfolio</title>
         <link rel="nl icon" href="images/NL.ico" />
       </head>
       <body>

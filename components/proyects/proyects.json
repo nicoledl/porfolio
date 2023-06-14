@@ -36,12 +36,12 @@
     "id": 3
   },
   {
-    "name": "Porfolio",
+    "name": "Portfolio",
     "role": "Role: Front-end",
     "technologies": "Technologies: Javascript, React, Tailwind, CSS, libraries",
     "url": "",
     "github": "",
-    "urlImg1": "images/porfolio.png",
+    "urlImg1": "images/portfolio.png",
     "id": 4
   }
 ]
