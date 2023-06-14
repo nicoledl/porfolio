@@ -1,21 +1,21 @@
 "use client";
 import { useState } from "react";
-import proyects from "./proyects.json";
-import style from "./Proyects.module.css";
+import projects from "./projects.json";
+import style from "./Projects.module.css";
 import { oleoScript } from "../../app/fonts";
 import { Element } from "react-scroll/modules";
 import { motion } from "framer-motion";
 
-export default function Proyects() {
-  const [currentProyect, setCurrentProyect] = useState(false);
+export default function Projects() {
+  const [currentProject, setCurrentProject] = useState(false);
   function handleSelected(elem) {
-    setCurrentProyect(elem);
+    setCurrentProject(elem);
   }
 
   return (
-    <Element name="proyects">
-      <div className={style.proyects}>
-        <motion.div className={oleoScript.className}>Proyects</motion.div>
+    <Element name="projects">
+      <div className={style.projects}>
+        <motion.div className={oleoScript.className}>Projects</motion.div>
         <main className="container mx-auto align-center grid grid-cols-1 lg:grid-rows-1 lg:grid-cols-2 mt-8 h-max">
           <div className="relative container mx-auto flex h-[100px] sm:h-[600px] pb-[90%]">
             <div
@@ -31,10 +31,10 @@ export default function Proyects() {
                 alt="tv"
                 className="absolute z-40 scale-x-[-1]"
               />
-              {currentProyect ? (
+              {currentProject ? (
                 <img
-                  src={currentProyect.urlImg1}
-                  alt={currentProyect.name}
+                  src={currentProject.urlImg1}
+                  alt={currentProject.name}
                   className={style.tvScreen}
                 />
               ) : (
@@ -47,7 +47,7 @@ export default function Proyects() {
             </div>
           </div>
           <div className="grid content-center px-[40px]">
-            {proyects.map((elem, i) => (
+            {projects.map((elem, i) => (
               <div
                 key={i}
                 className={style.vhs}
@@ -58,17 +58,17 @@ export default function Proyects() {
               </div>
             ))}
             <section className="mt-[50px] bg-amber-100 p-[20px] justify-items-center grid mb-5">
-              {currentProyect && (
+              {currentProject && (
                 <motion.div
                   initial={{ y: -10 }}
                   animate={{ y: 1 }}
                   className="relative"
                 >
-                  <p className="m-3">{currentProyect.role}</p>
-                  <p className="mb-5 m-3">{currentProyect.technologies}</p>
+                  <p className="m-3">{currentProject.role}</p>
+                  <p className="mb-5 m-3">{currentProject.technologies}</p>
                   <a
                     target="_blank"
-                    href={currentProyect.github}
+                    href={currentProject.github}
                     className="text-pink-500 mb-1 mt-3 uppercase font-bold text-end inline-flex items-center"
                   >
                     Github
@@ -85,10 +85,10 @@ export default function Proyects() {
                       />
                     </svg>
                   </a>
-                  {currentProyect.id !== 2 && currentProyect.id !== 3 ? (
+                  {currentProject.id !== 2 && currentProject.id !== 3 ? (
                     <a
                       target="_blank"
-                      href={currentProyect.url}
+                      href={currentProject.url}
                       className="text-violet-500  uppercase font-bold inline-flex items-center"
                     >
                       Visit
@@ -107,7 +107,7 @@ export default function Proyects() {
                     </a>
                   ) : (
                     <p
-                      href={currentProyect.github}
+                      href={currentProject.github}
                       className="text-violet-500  uppercase font-bold inline-flex items-center"
                     >
                       Work in progress
@@ -127,7 +127,7 @@ export default function Proyects() {
                   )}
 
                   <button
-                    onClick={() => setCurrentProyect(false)}
+                    onClick={() => setCurrentProject(false)}
                     className="absolute top-[-15px] right-[-10px]"
                   >
                     <svg

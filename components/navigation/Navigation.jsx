@@ -8,7 +8,7 @@ import { Link } from "react-scroll";
 const titles = [
   { label: "About Me", to: "about" },
   { label: "Skills", to: "skills" },
-  { label: "Proyects", to: "proyects" },
+  { label: "Projects", to: "projects" },
   { label: "Contact", to: "contact" },
 ];
 

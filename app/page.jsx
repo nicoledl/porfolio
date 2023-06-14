@@ -1,7 +1,7 @@
 import Header from "@/components/header/Header";
 import AboutMe from "@/components/about/About";
 import Skills from "@/components/skills/Skills";
-import Proyects from "@/components/proyects/Proyects";
+import Projects from "@/components/projects/Projects";
 import Contact from "@/components/contact/Contact";
 
 export default function HomePage() {
@@ -10,7 +10,7 @@ export default function HomePage() {
       <Header />
       <AboutMe />
       <Skills />
-      <Proyects />
+      <Projects />
       <Contact />
     </div>
   );
