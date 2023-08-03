@@ -21,7 +21,7 @@
     "name": "Tech Hunters",
     "role": "Role: Full Stack",
     "technologies": "Technologies: Javascript, React, Boostrap, CSS, libraries, Node.js, Express, MySql",
-    "url": "",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7087139353344319488/",
     "github": "",
     "urlImg1": "images/techunters.png",
     "id": 2
@@ -29,7 +29,7 @@
   {
     "name": "Mi Community",
     "role": "Role: Full Stack",
-    "technologies": "Technologies: Javascript, React, Boostrap, CSS, libraries, Node.js, Express, MySql",
+    "technologies": "Technologies: Javascript, React Js, Boostrap, CSS, libraries, Node.js, Express, MySql",
     "url": "",
     "github": "",
     "urlImg1": "images/micommunity.png",
@@ -38,10 +38,19 @@
   {
     "name": "Portfolio",
     "role": "Role: Front-end",
-    "technologies": "Technologies: Javascript, React, Tailwind, CSS, libraries",
+    "technologies": "Technologies: Javascript, React Js, Tailwind, CSS, libraries",
     "url": "",
     "github": "",
-    "urlImg1": "images/portfolio.png",
+    "urlImg1": "images/porfolio.png",
     "id": 4
+  },
+  {
+    "name": "Drum Machine",
+    "role": "Role: Front-end",
+    "technologies": "Technologies: Javascript, React Js, Redux, Boostrap, Sass",
+    "url": "https://fcc-drum-machine-git-main-nicoledl.vercel.app",
+    "github": "https://github.com/nicoledl/fcc-drum-machine",
+    "urlImg1": "images/Drum-Machine.png",
+    "id": 5
   }
 ]

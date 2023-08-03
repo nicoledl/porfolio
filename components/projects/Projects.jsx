@@ -85,7 +85,7 @@ export default function Projects() {
                       />
                     </svg>
                   </a>
-                  {currentProject.id !== 2 && currentProject.id !== 3 ? (
+                  {currentProject.id !== 3 ? (
                     <a
                       target="_blank"
                       href={currentProject.url}
