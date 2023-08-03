@@ -10,6 +10,11 @@
     "url": "https://react.dev/"
   },
   {
+    "tech": "Redux",
+    "imgUrl": "https://digital55.com/wp-content/uploads/2022/01/Cuando_y_por_que_debo_usar_redux_en_mis_proyectos_frontend.jpg",
+    "url": "http://es.redux.js.org"
+  },
+  {
     "tech": "HTML",
     "imgUrl": "https://usefulangle.com/img/thumb/html.png",
     "url": "https://developer.mozilla.org/es/docs/Web/HTML"
@@ -18,6 +23,11 @@
     "tech": "CSS",
     "imgUrl": "https://hyperts.net/wp-content/uploads/2021/06/csst.jpg",
     "url": "https://developer.mozilla.org/es/docs/Web/CSS"
+  },
+  {
+    "tech": "Sass",
+    "imgUrl": "https://i0.wp.com/techprimelab.com/wp-content/uploads/2020/06/SCSS-or-CSS.jpg?fit=1024%2C576&ssl=1",
+    "url": "https://sass-lang.com"
   },
   {
     "tech": "Node.js",
