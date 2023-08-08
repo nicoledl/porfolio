@@ -45,12 +45,21 @@
     "id": 4
   },
   {
+    "name": "Calculator",
+    "role": "Role: Front-end",
+    "technologies": "Technologies: Javascript, React Js, Redux, Sass",
+    "url": "https://fcc-javascript-calculator-git-main-nicoledl.vercel.app",
+    "github": "https://github.com/nicoledl/fcc-javascript-calculator",
+    "urlImg1": "images/calculator.png",
+    "id": 5
+  },
+  {
     "name": "Drum Machine",
     "role": "Role: Front-end",
     "technologies": "Technologies: Javascript, React Js, Redux, Boostrap, Sass",
     "url": "https://fcc-drum-machine-git-main-nicoledl.vercel.app",
     "github": "https://github.com/nicoledl/fcc-drum-machine",
-    "urlImg1": "images/Drum-Machine.png",
-    "id": 5
+    "urlImg1": "images/drum-machine.png",
+    "id": 6
   }
 ]
