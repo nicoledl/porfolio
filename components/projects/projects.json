@@ -2,7 +2,7 @@
   {
     "name": "La Flia Cine",
     "role": "Role: Front-end",
-    "technologies": "Technologies: Javascript, React, MaterialUI, themoviedb API, CSS, libraries",
+    "technologies": "Technologies: Javascript, React, MaterialUI, themoviedb API, CSS, libraries, Node.js, Express, sequelize, MySql",
     "url": "https://la-flia-cine.vercel.app/",
     "github": "https://github.com/nicoledl/LaFliaCine",
     "urlImg1": "images/tmdb.png",
@@ -39,8 +39,8 @@
     "name": "Portfolio",
     "role": "Role: Front-end",
     "technologies": "Technologies: Javascript, React Js, Tailwind, CSS, libraries",
-    "url": "",
-    "github": "",
+    "url": "https://porfolio-nicole-losana-git-master-nicoledl.vercel.app",
+    "github": "https://github.com/nicoledl/porfolio",
     "urlImg1": "images/porfolio.png",
     "id": 4
   },
