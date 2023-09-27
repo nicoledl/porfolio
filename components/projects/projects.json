@@ -1,12 +1,21 @@
 [
   {
+    "name": "Shopping Challenge",
+    "role": "Role: Full Stack",
+    "technologies": "Technologies: Javascript, Next.js, Tailwind, themoviedb API, CSS, libraries, Node.js, Express, sequelize, MySql",
+    "url": "https://it-crowd-challenge-git-main-nicoledl.vercel.app",
+    "github": "Front: https://github.com/nicoledl/it-crowd-challenge - Back: https://github.com/nicoledl/server-it-crowd-challenge ",
+    "urlImg1": "images/shopping-challenge.gif",
+    "id": 0
+  },
+  {
     "name": "La Flia Cine",
     "role": "Role: Front-end",
     "technologies": "Technologies: Javascript, React, MaterialUI, themoviedb API, CSS, libraries, Node.js, Express, sequelize, MySql",
     "url": "https://la-flia-cine.vercel.app/",
     "github": "https://github.com/nicoledl/LaFliaCine",
     "urlImg1": "images/tmdb.png",
-    "id": 0
+    "id": 1
   },
   {
     "name": "Casita Huellitas, refugio de adopción",
@@ -15,7 +24,7 @@
     "url": "https://refugio-casita-huellitas.onrender.com",
     "github": "https://github.com/nicoledl/casitaHuellitas",
     "urlImg1": "images/refugio.png",
-    "id": 1
+    "id": 2
   },
   {
     "name": "Tech Hunters",
@@ -24,7 +33,7 @@
     "url": "https://www.linkedin.com/feed/update/urn:li:activity:7087139353344319488/",
     "github": "",
     "urlImg1": "images/techunters.png",
-    "id": 2
+    "id": 3
   },
   {
     "name": "Mi Community",
@@ -33,7 +42,7 @@
     "url": "",
     "github": "",
     "urlImg1": "images/micommunity.png",
-    "id": 3
+    "id": 4
   },
   {
     "name": "Portfolio",
@@ -42,7 +51,7 @@
     "url": "https://porfolio-nicole-losana-git-master-nicoledl.vercel.app",
     "github": "https://github.com/nicoledl/porfolio",
     "urlImg1": "images/porfolio.png",
-    "id": 4
+    "id": 5
   },
   {
     "name": "Calculator",
@@ -51,7 +60,7 @@
     "url": "https://fcc-javascript-calculator-git-main-nicoledl.vercel.app",
     "github": "https://github.com/nicoledl/fcc-javascript-calculator",
     "urlImg1": "images/calculator.png",
-    "id": 5
+    "id": 6
   },
   {
     "name": "Drum Machine",
@@ -60,6 +69,6 @@
     "url": "https://fcc-drum-machine-git-main-nicoledl.vercel.app",
     "github": "https://github.com/nicoledl/fcc-drum-machine",
     "urlImg1": "images/drum-machine.png",
-    "id": 6
+    "id": 7
   }
 ]
