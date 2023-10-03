@@ -36,9 +36,9 @@ export default function Navigation() {
             <span>html</span>
             <span>css</span>
             <span>javascript</span>
-            <span>apis</span>
+            <span>api rest</span>
             <span>react</span>
-            <span>boostrap</span>
+            <span>tailwindcss</span>
             <span>node.js</span>
             <span>express</span>
             <span>mysql</span>
