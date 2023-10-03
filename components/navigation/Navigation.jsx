@@ -37,7 +37,7 @@ export default function Navigation() {
             <span>css</span>
             <span>javascript</span>
             <span>api rest</span>
-            <span>next js</span>
+            <span>next.js</span>
             <span>tailwindcss</span>
             <span>node.js</span>
             <span>express</span>
