@@ -36,13 +36,22 @@
     "id": 3
   },
   {
+    "name": "Calculator",
+    "role": "Role: Front-end",
+    "technologies": "Technologies: Javascript, React Js, Redux, Sass",
+    "url": "https://fcc-javascript-calculator-git-main-nicoledl.vercel.app",
+    "github": "https://github.com/nicoledl/fcc-javascript-calculator",
+    "urlImg1": "images/calculator.png",
+    "id": 4
+  },
+  {
     "name": "Mi Community",
     "role": "Role: Full Stack",
     "technologies": "Technologies: Javascript, React Js, Boostrap, CSS, libraries, Node.js, Express, MySql",
     "url": "",
     "github": "",
     "urlImg1": "images/micommunity.png",
-    "id": 4
+    "id": 5
   },
   {
     "name": "Portfolio",
@@ -51,15 +60,6 @@
     "url": "https://porfolio-nicole-losana-git-master-nicoledl.vercel.app",
     "github": "https://github.com/nicoledl/porfolio",
     "urlImg1": "images/porfolio.png",
-    "id": 5
-  },
-  {
-    "name": "Calculator",
-    "role": "Role: Front-end",
-    "technologies": "Technologies: Javascript, React Js, Redux, Sass",
-    "url": "https://fcc-javascript-calculator-git-main-nicoledl.vercel.app",
-    "github": "https://github.com/nicoledl/fcc-javascript-calculator",
-    "urlImg1": "images/calculator.png",
     "id": 6
   }
 ]
