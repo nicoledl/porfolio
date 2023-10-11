@@ -14,7 +14,7 @@
 }
 
 .aboutContainer h1 {
-  font-family: "Lilita One", cursive;
+  font-family: "Lilita One", sans-serif;
   color: #fff;
   font-size: clamp(4rem, 8vw + 2rem, 7rem);
   text-align: center;
