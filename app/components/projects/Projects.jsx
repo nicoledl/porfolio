@@ -2,7 +2,7 @@
 import { useState } from "react";
 import projects from "./projects.json";
 import style from "./Projects.module.css";
-import { oleoScript } from "../../app/fonts";
+import { oleoScript } from "../../fonts";
 import { Element } from "react-scroll/modules";
 import { motion } from "framer-motion";
 

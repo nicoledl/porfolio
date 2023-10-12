@@ -4,7 +4,7 @@ import style from "./Skills.module.css";
 import tech from "./technologies.json";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import {russoOne} from "../../app/fonts"
+import {russoOne} from "../../fonts"
 
 function cd(params, i) {
   return (

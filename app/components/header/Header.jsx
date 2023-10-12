@@ -1,6 +1,6 @@
 "use client";
 import styles from "./Header.module.css";
-import { abrilFatface, yesevaOne, concertOne } from "../../app/fonts";
+import { abrilFatface, yesevaOne, concertOne } from "../../fonts";
 import { Element } from "react-scroll/modules";
 import { motion } from "framer-motion";
 

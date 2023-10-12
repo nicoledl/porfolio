@@ -1,6 +1,6 @@
 "use client";
 import styles from "./Navigation.module.css";
-import { montserrat } from "../../app/fonts";
+import { montserrat } from "../../fonts";
 import Marquee from "react-fast-marquee";
 import { useEffect, useState } from "react";
 import { Link } from "react-scroll";
